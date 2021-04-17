@@ -8,6 +8,7 @@ const mediaPost = document.querySelectorAll(".media-post");
 document.addEventListener('DOMContentLoaded', (e) => {
   const modal = document.querySelector("#modal");
   modal.hidden = true
+  //modal.setAttribute('class', 'hidden')
 
 //target each heart and add an event listener you can use a forEach or a for...of
   mediaPost.forEach((post) => {
